@@ -46,7 +46,7 @@ int xdigitCheck(char seg,int digit)
     }
     else
     {
-        free(digitHolder);
+        delete [] digitholder;
     }
 }
 
